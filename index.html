@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"></link>
+    <link rel="stylesheet" href="css/all.min.css"></link>
+    <script src="js/app.js" defer></script>
+    <title>presentation</title>
+</head>
+<body>
+   <header class="hero">
+        <nav class="hero-nav">
+            <div class="left">
+                <div class="logo"><a href="#home"><img src="img/logo.jpg" alt=""></a></div>
+                <h1 class="logo-title">Fandresena</h1>
+            </div>
+            <div class="center">
+                <ul class="menu-bars">
+                    <li><a class="active" href="#home">ACCUEIL</a></li>
+                    <li><a href="#menu">MENUS</a></li>
+                    <li class=""><a href="#about">A PROPOS</a></li>
+                    <li class=""><a href="#chef">NOS Equipes</a></li>
+                    <li class=""><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul class="nav-icon-container">
+                    <li class="nav-icon " id="search-icon" onclick="toogleSearchBar()"><i class="fa-solid fa-search"></i></li>
+                    <li class="nav-icon"><i class="fa-solid fa-heart"></i></li>
+                    <li class="nav-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="money-counter"> ar</span>
+                    </li>
+                    <!-- <li class="contrast-mode">
+                        <li class="nav-icon search"><i class="fa-solid  fa-sun"></i></li>
+                        <li class="nav-icon search"><i class="fa-solid  fa-moon"></i></li>
+                    </li> -->
+                    <li class="burger"onclick="openNavbar()">
+                        <i class="fa-solid fa-bars" id="opener" ></i>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Que voulez-vous chercher ?">
+        </div>
+        <div class="hero-title" id="home">
+            <div class="title-container">
+                <h1 class="title">COMMANDER VOS  INTERETS DANS DOMAINES Numeriques</h1>
+                <button class="hero-button"><a href="#menu">Commander Maintenant</a><i class=""></i></button>
+            </div> 
+            <div class="hero-image">
+                <img src="img/PXL_20230603_095751819.PORTRAIT.jpg" alt="" srcset="">
+            </div>
+        </div>
+   </header> 
+   <main>
+        <section class="menus" id="menu">
+            <div class="menu-subtitle">
+                <h2 class="subtitle">Nous vous offrir</h2>
+            </div>
+            <div class="menu-flex-container">
+                <div class="menu-flex-item">
+                    <img src="img/fond.jpg" alt="" srcset="" class="image">
+                    <div class="text">
+                        <h3 class="menu-name">site <e-commerce></e-commerce></h3>
+                        <p>Introducing Our Community: Unlock Your Potential in the World of IT!
+
+                            Are you looking to create your own software, build an e-commerce website, showcase your business online, develop web or mobile applications, or even manage your own software solutions? Look no further! Our vibrant and supportive community is here to help you navigate the exciting world of Information Technology (IT) and turn your ideas into reality.
+                            
+                            </p>
+                    </div>
+                </div>
+                <div class="menu-flex-item">
+                    <img src="img//fond.jpg" alt="" srcset="" class="image">
+                    <div class="text">
+                        <h3 class="menu-name">Application web</h3>
+                        <p>At Fandresena we believe that everyone has the power to innovate and make a lasting impact through technology. Our community is made up of skilled professionals, passionate enthusiasts, and ambitious learners who share a common goal: to empower individuals like you with the knowledge and resources needed to excel in the IT field.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="menu-flex-item">
+                    <img src="img/fond.jpg" alt="" srcset="" class="image">
+                    <div class="text">
+                        <h3 class="menu-name">Des logiciel de gestion </h3>
+                        <p>Whether you're a beginner seeking guidance or an experienced developer looking to expand your skills, our community is the perfect place to learn, grow, and collaborate. We offer a wide range of resources, including tutorials, workshops, and expert-led discussions, tailored to meet the diverse needs and interests of our members.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="foods">
+                <div class="menu-subtitle">
+                    <h2 class="subtitle"> site</h2>
+                </div>
+                <div class="foods-grid-container">
+                    <div class="food-grid-item">
+                        <img src="img/fond.jpg" alt="">
+                        <div class="icons">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <h3 class="plat-name">Application</h3>
+                        <div class="price">
+                            <span> :</span>
+                            <span> ar</span>
+                        </div>
+                        <div class="buttons">
+                            <button class="add-card">commander</button>
+                        </div>
+                    </div>
+                    <div class="food-grid-item">
+                        <img src="img/fond.jpg" alt="">
+                        <div class="icons">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <h3 class="plat-name">site</h3>
+                        <div class="price">
+                            <span> :</span>
+                            <span>  ar</span>
+                        </div>
+                        <div class="buttons">
+                            <button class="add-card">commander</button>
+                        </div>
+                    </div>
+                    <div class="food-grid-item">
+                        <img src="img/fond.jpg" alt="">
+                        <div class="icons">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <h3 class="plat-name">application</h3>
+                        <div class="price">
+                            <span> :</span>
+                            <span> ar</span>
+                        </div>
+                        <div class="buttons">
+                            <button class="add-card">commander</button>
+                        </div>
+                    </div>
+                    <div class="food-grid-item">
+                        <img src="img/fond.jpg" alt="">
+                        <div class="icons">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <h3 class="plat-name">site</h3>
+                        <div class="price">
+                            <span> :</span>
+                            <span>Ar</span>
+                        </div>
+                        <div class="buttons">
+                            <button class="add-card">commander</button>
+                        </div>
+                    </div>
+                    <div class="food-grid-item">
+                        <img src="img/fond.jpg" alt="">
+                        <div class="icons">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <h3 class="plat-name">application</h3>
+                        <div class="price">
+                            <span> :</span>
+                            <span>15 Ar </span>
+                        </div>
+                        <div class="buttons">
+                            <button class="add-card">commander</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-subtitle">
+                <h2 class="subtitle">A PROPOS DE <span>Fandresena</span></h2>
+            </div>
+            <div class="about-container">
+                <img src="img//logo_brush.png" alt="" class="image">
+                <div class="text">
+                    <div class="article">
+                        <p>Welcome to our community of developers! We are a passionate and dedicated group of individuals who share a common interest in web development, databases, and more. Our goal is to foster a supportive environment where developers of all skill levels can come together to learn, collaborate, and grow.
+
+                            At our core, we believe in the power of technology to shape the world and improve lives. With the ever-evolving landscape of web development and the increasing importance of data-driven solutions, we strive to stay at the forefront of industry trends and advancements. Our community serves as a hub for knowledge exchange, providing a platform for developers to explore new technologies, discuss best practices, and find inspiration.
+                            
+                            Whether you are a seasoned professional or just starting your journey in the world of development, you'll find a place here among like-minded individuals. Our diverse community includes web developers, database administrators, software engineers, and more. We value diversity and inclusion, understanding that different perspectives and experiences enrich our collective knowledge.
+                            
+                            In our community, you'll have access to a wide range of resources and opportunities to enhance your skills. We organize workshops, webinars, and coding challenges that cater to different interests and expertise levels. Our members actively engage in discussions, sharing their insights, and providing constructive feedback to help each other grow. Networking is also a key aspect of our community, as we believe in the power of connections and collaboration.
+                            
+                            We encourage active participation and engagement from all members. Don't hesitate to ask questions, share your projects, or contribute to ongoing discussions. Our community thrives on collaboration and mutual support. Together, we can push the boundaries of what's possible and create innovative solutions that make a difference.
+                            
+                            Join our community of developers today and embark on an exciting journey of learning, growth, and camaraderie. Let's build the future of technology together!
+                            
+                            If you have any questions or need assistance, feel free to reach out to us. We are here to help!
+                            
+                            Happy coding!
+                            
+                            Fandresena
+                            </p>
+                    </div>
+                    <button class="learnMore">En savoir plus ...</button>
+                </div>
+            </div>
+        </section> 
+        <section class="chefs" id="chef">
+            <div class="chef-subtitle">
+                <h2 class="subtitle">Mon Equipes</h2>
+            </div>
+            <div class="chef-flex-container">
+                <div class="chef-flex-item">
+                    <div class="profile">
+                        <img src="img/modest.jpg" alt="" srcset="">
+                    </div>
+                    <div class="information">
+                        <h3 class="name">NIRIANA TOLOJANAHARY MODEST</h3>
+                        <span>Nirina Tolojanahary - Full-Stack Developer:
+                            When it comes to developing robust and scalable applications, Nirina Tolojanahary is the expert you need. As a Full-Stack Developer, Tolojanahary possesses a comprehensive skill set, encompassing both front-end and back-end technologies. From crafting intuitive user interfaces to building efficient server-side architectures, Tolojanahary can guide you through the entire development process. Join our community and benefit from Tolojanahary's extensive experience in creating dynamic and versatile applications.
+                            </span>
+                        <button class="contacting">Contacter</button>
+                        <ul class="social-media-icons">
+                            <li><a href="facebook.com"><i class="fa-brands fa-facebook" ></i></a></li>
+                            <li><a href="facebook.com"><i class="fa-brands fa-twitter" style="color:skyblue"></i></a></li>
+                            <li><a href="facebook.com"><i class="fa-brands fa-instagram" style="color:pink"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="chef-flex-item">
+                    <div class="profile">
+                        <img src="img/tàmbatra.jpg" alt="" srcset="">
+                    </div>
+                    <div class="information">
+                        <h3 class="name">RANDRIANASOLO Hasiniavo Tambatra</h3>
+                        <span>. Randrianasolo Tambatra - Front-End Developer:
+                            Are you looking to create visually stunning and user-friendly websites? Look no further! Randrianasolo Tambatra is our talented Front-End Developer, specializing in crafting captivating user interfaces. With an eye for design and expertise in HTML, CSS, and JavaScript, Tambatra brings websites to life, ensuring an exceptional user experience. Join our community and tap into Tambatra's wealth of knowledge to create engaging and responsive front-end solutions.
+                            </span>
+                        <button class="contacting">Contacter</button>
+                        <ul class="social-media-icons">
+                            <li><a href="facebook.com"><i class="fa-brands fa-facebook" ></i></a></li>
+                            <li><a href="facebook.com"><i class="fa-brands fa-twitter" style="color:skyblue"></i></a></li>
+                            <li><a href="facebook.com"><i class="fa-brands fa-instagram" style="color:pink"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="chef-flex-item">
+                    <div class="profile">
+                        <img src="img/mika.jpg" alt="" srcset="">
+                    </div>
+                    <div class="information">
+                        <h3 class="name">Tserika fandresena Michael angelo</h3>
+                        <span>Tserika Fandresena Michael Angelo - Backend Developer and Client Relations Manager:
+                            Need a reliable and knowledgeable backend developer who can also manage client relationships? Look no further than Tserika Fandresena Michael Angelo. As a Backend Developer and Client Relations Manager, Tserika brings together technical expertise and exceptional communication skills. From designing efficient server architectures to maintaining strong client relationships, Tserika ensures smooth project execution from start to finish. Join our community and benefit from Tserika's proficiency in backend development and client management.
+                            </span>
+                        <button class="contacting">Contacter</button>
+                        <ul class="social-media-icons">
+                            <li><a href="facebook.com"><i class="fa-brands fa-facebook" ></i></a></li>
+                            <li><a href="facebook.com"><i class="fa-brands fa-twitter" style="color:skyblue"></i></a></li>
+                            <li><a href="facebook.com"><i class="fa-brands fa-instagram" style="color:pink"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="chef-flex-container">
+                    <div class="chef-flex-item">
+                        <div class="profile">
+                            <img src="img/kofa.jpg" alt="" srcset="">
+                        </div>
+                        <div class="information">
+                            <h3 class="name">RANDRIANTOKINIAINA nombantsoa</h3>
+                            <span>Tokiniaina Nombantsoa - Front-End Developer:
+                                For captivating and responsive front-end solutions, Tokiniaina Nombantsoa is the developer you want on your team. With a keen eye for design and expertise in front-end technologies, Nombantsoa creates visually stunning websites that leave a lasting impression. Whether it's building intuitive user interfaces or optimizing website performance, Nombantsoa's skills and dedication will help you achieve exceptional results. Join our community and learn from Nombantsoa's expertise in front-end development.
+                                </span>
+                            <button class="contacting">Contacter</button>
+                            <ul class="social-media-icons">
+                                <li><a href="facebook.com"><i class="fa-brands fa-facebook" ></i></a></li>
+                                <li><a href="facebook.com"><i class="fa-brands fa-twitter" style="color:skyblue"></i></a></li>
+                                <li><a href="facebook.com"><i class="fa-brands fa-instagram" style="color:pink"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="chef-flex-item">
+                        <div class="profile">
+                            <img src="img/IMG_20230201_095438.jpg" alt="" srcset="">
+                        </div>
+                        <div class="information">
+                            <h3 class="name">ARO</h3>
+                            <span>. Aro - Front-End Developer and Content Writer:
+                                Looking for a developer with a flair for creativity and a way with words? Meet Aro, our talented Front-End Developer and Content Writer. Aro combines their expertise in front-end development with exceptional writing skills to deliver engaging content and captivating user experiences. Whether you need a compelling website or engaging copy, Aro has the skills to bring your vision to life. Join our community and collaborate with Aro to create visually stunning websites with compelling content.
+                                </span>
+                            <button class="contacting">Contacter</button>
+                            <ul class="social-media-icons">
+                                <li><a href="facebook.com"><i class="fa-brands fa-facebook" ></i></a></li>
+                                <li><a href="facebook.com"><i class="fa-brands fa-twitter" style="color:skyblue"></i></a></li>
+                                <li><a href="facebook.com"><i class="fa-brands fa-instagram" style="color:pink"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="chef-flex-item">
+                        <div class="profile">
+                            <img src="img/IMG_3878.jpeg" alt="" srcset="">
+                        </div>
+                        <div class="information">
+                            <h3 class="name">Tserika fandresena Michael angelo</h3>
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                            <button class="contacting">Contacter</button>
+                            <ul class="social-media-icons">
+                                <li><a href="facebook.com"><i class="fa-brands fa-facebook" ></i></a></li>
+                                <li><a href="facebook.com"><i class="fa-brands fa-twitter" style="color:skyblue"></i></a></li>
+                                <li><a href="facebook.com"><i class="fa-brands fa-instagram" style="color:pink"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-subtitle">
+                <h2 class="subtitle"> CONTACTER-NOUS !</h2>
+            </div>
+            <div class="contact-form-container">
+                <form action="" class="contact-form">
+                    <div class="left">
+                        <div class="contact-item">
+                            <input type="text" placeholder="Votre Prenom">
+                            <span class="firstname-message"></span>
+                        </div>
+                        <div class="contact-item">
+                            <input type="text" placeholder="Votre Adresse mail">
+                            <span class="email-message"></span>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <textarea name="user-message" id="" placeholder="Votre Message"></textarea>
+                    </div>
+                </form>
+                <button class="submit">Envoyer</button>
+            </div>
+        </section>
+   </main>
+   <footer>
+        <div class="footer-link">
+            <div class="foot-ref">
+                <h3 class="foot-subtitle">Informations</h3>
+                <ul>
+                    <li><i class="fa-solid fa-map-marker-alt"></i>Fianarantsoa-Madagascar</li>
+                    <li><i class="fa-solid fa-envelope"></i>mitsetra@gmail.com</li>
+                    <li><i class="fa-solid fa-phone"></i>034 38 160 59 </li>
+                </ul>
+            </div>
+            <div class="foot-nav">  
+                <h3 class="foot-subtitle">Liens De Navigation</h3>
+                <ul>
+                    <li><a href="#home">ACCUEIL</a></li>
+                    <li><a href="#menu">MENUS</a></li>
+                    <li class=""><a href="#about">A PROPOS</a></li>
+                    <li class=""><a href="#chef">NOS Equipes</a></li>
+                    <li class=""><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot-icons">
+            <ul class="social-media-icons">
+                <li><a href="facebook.com"><i class="fa-brands fa-facebook"style="color:white;" ></i></a></li>
+                <li><a href="facebook.com"><i class="fa-brands fa-twitter" style="color:skyblue"></i></a></li>
+                <li><a href="facebook.com"><i class="fa-brands fa-instagram" style="color:pink"></i></a></li>
+            </ul>
+        </div>
+        <div class="Copyright">
+            <small>Copyright (c) May 2023 , <span>Tserika Fandresena Michael Angelo</span></small>
+        </div>
+    </footer>
+    
+</body>
+</html>
