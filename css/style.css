@@ -761,8 +761,12 @@ footer{
     }
 
     .hero-title{
+        padding-top: 130px;
+        padding-bottom: 1300px;
         flex-wrap: wrap;
-        flex-direction: column-reverse;
+        height: 200vh;
+        /* margin: 20px; */
+        /* flex-direction: column-reverse; */
     }
 
 }
